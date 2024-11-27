@@ -1,5 +1,4 @@
-
-body{
+body {
     display: flex;
     height: 100vh;
     width: 100vw;
@@ -11,57 +10,79 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.close-modal{
+.close-modal {
     display: flex;
     justify-content: right;
-    width: 0px;
-    height: 0px;
-    margin-left:  325px;
-    
-
+    text-decoration: none;
+    margin-left: 300px;
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
 }
 
-section{
+section {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
     width: 20rem;
     padding: 1.6rem;
-    border: 0.07rem solid black;
+    border: 0.07m solid black;
     border-radius: 1.2rem;
+    background-color: white;
 }
 
 
- /* logo */
-img{
+dialog {
+    border: none;
+    background-color: transparent;
+}
+
+.root {}
+
+/* logo */
+img {
 
     width: 100%;
     height: 150px;
 }
 
 
-input{
+input {
     padding: 0.4rem;
     width: 100%;
     border: 0.07rem solid black;
     border-radius: 0.6rem;
 }
 
-button{
-width: 100%;
-height: 45px;
-background:#fff;
-border: none;
-outline: none; 
-border-radius: 40px; 
-box-shadow: 0 0 10px #0000003e; 
-cursor: pointer; 
-font-size: 16px; 
-color: #333;
-font-weight: 600;
+#entrada {
+    width: 30%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #0000003e;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
 }
 
-a{
+#botaoEntrar {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #0000003e;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+a {
     font-size: 1rem;
 }
